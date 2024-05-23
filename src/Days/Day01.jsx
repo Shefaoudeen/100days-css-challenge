@@ -3,7 +3,7 @@ import React from "react";
 const Day01 = () => {
   return (
     <div className="w-full h-screen flex justify-center items-center">
-      <div className="text-white min-h-[400px] min-w-[400px] flex flex-col justify-center items-center rounded-xl border-none bg-gradient-to-tr from-blue-800 to-green-300 shadow-black/90 shadow-xl">
+      <div className="text-white min-h-[400px] min-w-[400px] flex flex-col justify-center items-center rounded-xl border-none bg-gradient-to-tr from-blue-800 to-green-300 shadow-black/90 shadow-xl max-md:scale-90">
         <div className="flex">
           <div className="relative mr-4 mt-1">
             <div className="absolute w-[20px] h-[40px] rounded-md bg-white rotate-45 mt-7 -left-4 z-0 custom-shadow-block"></div>
